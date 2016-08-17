@@ -1,3 +1,7 @@
+body {
+
+}
+
 .col-md-12 {
   height: 100px;
   background-color: purple;
@@ -30,4 +34,28 @@
 .container {
   height: 50px;
   background-color: pink;
+}
+ .yellow {
+   height: 50px;
+   background-color: purple;
+ }
+ .col-lg-9 {
+   border: 1px solid #000;
+   background-color: orange;
+ }
+
+.col-sm-3 {
+  border: 1px solid #000;
+  background-color: pink;
+}
+
+.col-sm-9 {
+  border: 1px solid #000;
+  background-color: green;
+}
+
+.absolute-lorem {
+  position: fixed;
+  top: 20px;
+  left: 200px;
 }
