@@ -31,3 +31,15 @@
   height: 50px;
   background-color: pink;
 }
+
+@media screen & (min-width: 768px) {
+  .container {
+    background: black;
+  }
+}
+
+@media screen & (min-width: 375px) {
+  .container-fluid {
+    background: pink;
+  }
+}
